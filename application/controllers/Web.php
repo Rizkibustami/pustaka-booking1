@@ -9,7 +9,7 @@ class Web extends CI_controller
     }
     public function index()
     {
-        $data['judul']="halaman depan";
+        $data['judul']="Halaman Depan";
         $this->load->view('v_header',$data);
         $this->load->view('v_index',$data);
         $this->load->view('v_footer',$data);
