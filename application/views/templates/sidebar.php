@@ -37,7 +37,7 @@
 
       </style>
         <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-           <i class="fas fa-book"></i>
+            <i class="fas fa-wind"></i>
             <span>Data Buku</span></a>
     </li>
 
