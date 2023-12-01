@@ -9,7 +9,6 @@
     <div class="sidebar-brand-text mx-3">Pustaka Booking </div>
 </a>
 
-
 <!-- Divider -->
 <hr class="sidebar-divider">
 
@@ -17,9 +16,6 @@
 <div class="sidebar-heading">
     Master Data
 </div>
-
-
-
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item">
@@ -31,27 +27,22 @@
         <span>Kategori Buku</span></a>
 </li>
 
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item">
-      <style media="screen">
+<!-- Nav Item - Dashboard -->
+<li class="nav-item">
+    <style media="screen">
 
-      </style>
-        <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-            <i class="fas fa-wind"></i>
-            <span>Data Buku</span></a>
+    </style>
+    <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
+        <i class="fas fa-wind"></i>
+        <span>Data Buku</span></a>
     </li>
 
-    <li class="nav-item">
-        <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-            <i class="fas fa-users"></i>
-            <span>Data Anggota</span></a>
+<li class="nav-item">
+    <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
+        <i class="fas fa-users"></i>
+        <span>Data Anggota</span></a>
     </li>
-
-
 </li>
-
-
-
 
 <!-- Divider -->
 <hr class="sidebar-divider mt-3">
@@ -60,7 +51,6 @@
 <div class="text-center d-none d-md-inline">
      <button class="rounded-circle border-0" id="sidebarToggle"></button>
  </div>
-
 
 </ul>
 <!-- End of Sidebar --   >
